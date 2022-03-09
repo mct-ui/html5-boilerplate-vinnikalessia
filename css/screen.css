@@ -39,3 +39,92 @@ img {
   /*nu zal de afbeelding met de kat meegaan met de grootte van je scherm*/
   vertical-align: top;
 }
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0 0 48px;
+}
+
+h2 {
+  margin: 0 0 24px;
+  /*de grootste margin eet de kleinste margin op => margin collaps*/
+  font-size: 23px;
+  line-height: 32px;
+}
+
+h3 {
+  margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h4,
+h5,
+h6 {
+  font-style: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+  margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote {
+  padding: 0 0 0 24px;
+}
+
+li ul,
+li ol {
+  margin: 0;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote * {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 0 0;
+  color: darkgray;
+}
+
+hr {
+}
+
+a {
+}
+
+a:hover,
+a:focus {
+}
+
+a:visited,
+a:active {
+}
