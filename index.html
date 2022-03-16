@@ -8,7 +8,7 @@
         <!---je kan dit ook maken door crtl / -->
         <!-- boilerplate is een soort sjabloon dat je kan gebruiken -->
         <meta name="description" content="This is a boilerplatesite">
-        <meta nmae="theme color" content="#44c8f5">
+        <meta name="theme color" content="#44c8f5">
 
         <title>UI opdracht boilerplate</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
@@ -29,21 +29,29 @@
         </style> -->
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="#heading_2">heading 2</a></li>
+                <li><a href="#heading_3">heading 3</a></li>
+                <li><a href="#tables">tables</a></li>
+                <li><a href="#lists">lists</a></li>
+            </ul>
+        </nav>
         <header>
             <h1>Hello world! This is my HTML5 boilerplate.</h1>
             <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
         </header>
-        <h2>
+        <h2 id="heading_2">
             Heading 2
         </h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="test.com">standard link</a> distinctio facilis excepturi, reprehenderit pariatur odit, velit mollitia saepe impedit reiciendis omnis quasi sed, facere quo nobis a blanditiis.
         </p>
         <figure>
-            <img src="img/yawning-cat.jpeg" alt="yawing-cat" srcset="">
+            <img src="img/yawning-cat.jpeg" alt="yawing-cat">
             <figcaption>Yawing cat by Martina Misar</figcaption>
         </figure>
-        <h3>
+        <h3 id="heading_3">
             Heading 3
         </h3>
         <p>
@@ -54,7 +62,7 @@
                 A blockquote is a large quotation. The content of a blockquote element must include block-level elements such as headings, lists, paragraphs or div’s. This element can also have an optional attribute cite that specifies the location (in the form of a URI) where the quote has come from.
             </p>
         </blockquote>
-        <h3>Tables</h3>
+        <h3 id="tables">Tables</h3>
         <table>
             <tr>
                 <th>Title 1</th>
@@ -67,7 +75,7 @@
                 <td>data3</td>
             </tr>
         </table>
-        <h3>
+        <h3 id="lists">
             Styling lists is easy
         </h3>
         <div>
